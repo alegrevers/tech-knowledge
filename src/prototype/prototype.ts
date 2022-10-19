@@ -3,8 +3,6 @@ class Prototype {
   public component: object;
   public circularReference: ComponentWithBackReference;
 
-  //
-
   public clone(): this {
     const clone = Object.create(this);
 
