@@ -10,7 +10,7 @@ class Prototype {
 
     clone.circularReference = {
       ...this.circularReference,
-      prototye: { ...this },
+      prototype: { ...this },
     };
 
     return clone;
